@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TestApiTVC.h
 //  ApiTest
 //
 //  Created by Kranthi Kumar on 15/09/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface TestApiTVC : UITableViewController
 
 @end

@@ -14,13 +14,14 @@
 		DEABC15219C70DDC00864F34 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEABC15119C70DDC00864F34 /* main.m */; };
 		DEABC15619C70DDC00864F34 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEABC15519C70DDC00864F34 /* AppDelegate.m */; };
 		DEABC15919C70DDC00864F34 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEABC15719C70DDC00864F34 /* Main.storyboard */; };
-		DEABC15C19C70DDC00864F34 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEABC15B19C70DDC00864F34 /* ViewController.m */; };
 		DEABC15E19C70DDC00864F34 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEABC15D19C70DDC00864F34 /* Images.xcassets */; };
 		DEABC16519C70DDC00864F34 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEABC16419C70DDC00864F34 /* XCTest.framework */; };
 		DEABC16619C70DDC00864F34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEABC14519C70DDC00864F34 /* Foundation.framework */; };
 		DEABC16719C70DDC00864F34 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEABC14919C70DDC00864F34 /* UIKit.framework */; };
 		DEABC16F19C70DDC00864F34 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DEABC16D19C70DDC00864F34 /* InfoPlist.strings */; };
 		DEABC17119C70DDC00864F34 /* ApiTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEABC17019C70DDC00864F34 /* ApiTestTests.m */; };
+		DEABC18219C7110600864F34 /* TestApiTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DEABC18119C7110600864F34 /* TestApiTVC.m */; };
+		DEABC18519C7142E00864F34 /* TextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEABC18419C7142E00864F34 /* TextViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +46,17 @@
 		DEABC15419C70DDC00864F34 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DEABC15519C70DDC00864F34 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		DEABC15819C70DDC00864F34 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		DEABC15A19C70DDC00864F34 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DEABC15B19C70DDC00864F34 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DEABC15D19C70DDC00864F34 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		DEABC16319C70DDC00864F34 /* ApiTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApiTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEABC16419C70DDC00864F34 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		DEABC16C19C70DDC00864F34 /* ApiTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ApiTestTests-Info.plist"; sourceTree = "<group>"; };
 		DEABC16E19C70DDC00864F34 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DEABC17019C70DDC00864F34 /* ApiTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApiTestTests.m; sourceTree = "<group>"; };
+		DEABC17A19C70F1300864F34 /* TestAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAPIConstants.h; path = ../TestAPIConstants.h; sourceTree = "<group>"; };
+		DEABC18019C7110600864F34 /* TestApiTVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestApiTVC.h; path = ../TestApiTVC.h; sourceTree = "<group>"; };
+		DEABC18119C7110600864F34 /* TestApiTVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestApiTVC.m; path = ../TestApiTVC.m; sourceTree = "<group>"; };
+		DEABC18319C7142E00864F34 /* TextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextViewController.h; sourceTree = "<group>"; };
+		DEABC18419C7142E00864F34 /* TextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +116,12 @@
 		DEABC14B19C70DDC00864F34 /* ApiTest */ = {
 			isa = PBXGroup;
 			children = (
-				DEABC15419C70DDC00864F34 /* AppDelegate.h */,
-				DEABC15519C70DDC00864F34 /* AppDelegate.m */,
+				DEABC17A19C70F1300864F34 /* TestAPIConstants.h */,
 				DEABC15719C70DDC00864F34 /* Main.storyboard */,
-				DEABC15A19C70DDC00864F34 /* ViewController.h */,
-				DEABC15B19C70DDC00864F34 /* ViewController.m */,
+				DEABC18319C7142E00864F34 /* TextViewController.h */,
+				DEABC18419C7142E00864F34 /* TextViewController.m */,
+				DEABC18019C7110600864F34 /* TestApiTVC.h */,
+				DEABC18119C7110600864F34 /* TestApiTVC.m */,
 				DEABC15D19C70DDC00864F34 /* Images.xcassets */,
 				DEABC14C19C70DDC00864F34 /* Supporting Files */,
 			);
@@ -126,6 +131,8 @@
 		DEABC14C19C70DDC00864F34 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DEABC15419C70DDC00864F34 /* AppDelegate.h */,
+				DEABC15519C70DDC00864F34 /* AppDelegate.m */,
 				DEABC14D19C70DDC00864F34 /* ApiTest-Info.plist */,
 				DEABC14E19C70DDC00864F34 /* InfoPlist.strings */,
 				DEABC15119C70DDC00864F34 /* main.m */,
@@ -249,9 +256,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEABC15C19C70DDC00864F34 /* ViewController.m in Sources */,
 				DEABC15619C70DDC00864F34 /* AppDelegate.m in Sources */,
+				DEABC18219C7110600864F34 /* TestApiTVC.m in Sources */,
 				DEABC15219C70DDC00864F34 /* main.m in Sources */,
+				DEABC18519C7142E00864F34 /* TextViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
