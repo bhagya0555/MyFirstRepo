@@ -82,6 +82,7 @@
     NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options: NSJSONReadingMutableContainers error: &error];
     contentString=[NSString stringWithFormat:@"%@",json];
     childVC.content=contentString;
+    NSLog(@"print error if any....%@",error);//added in tempcopy
 }
 //https://api.saks.com/partner/v3/inventory/variant/401880406317?api_key=6yvup8rcsvrj4rsz7k39ytcs
 @end
