@@ -30,7 +30,7 @@
     self.textView.text=self.tempData2;
     [super viewDidLoad];
     NSLog(@"In master copy");
-    NSLog(@"In temporary copy1");
+    NSLog(@"In temporary copy1");//gdfd
     
 
 
