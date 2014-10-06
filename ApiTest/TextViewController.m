@@ -29,6 +29,7 @@
 {
     self.textView.text=self.content;
     [super viewDidLoad];
+    NSLog(@"In temporary copy");
 
 	// Do any additional setup after loading the view.
 }
