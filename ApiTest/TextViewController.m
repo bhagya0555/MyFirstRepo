@@ -29,7 +29,7 @@
 {
     self.textView.text=self.content;
     [super viewDidLoad];
-    NSLog(@"In master copy2");
+    NSLog(@"In temporary copy1");
  
 
 
