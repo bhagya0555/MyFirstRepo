@@ -12,5 +12,8 @@
 @property (strong,nonatomic) NSString* content;
 @property (strong,nonatomic) NSString* tempData1;
 @property (strong,nonatomic) NSString* tempData2;
+@property (strong,nonatomic) NSString* content2;
+@property (strong,nonatomic) NSString* content4;
+@property (strong,nonatomic) NSString* content5;
 @property (strong,nonatomic) NSString* tempData3;
 @end
