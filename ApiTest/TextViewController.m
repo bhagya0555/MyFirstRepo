@@ -29,6 +29,7 @@
 {
     self.textView.text=self.content;
     [super viewDidLoad];
+    NSLog(@"In master branch copy");
 
 	// Do any additional setup after loading the view.
 }
