@@ -27,9 +27,10 @@
 
 - (void)viewDidLoad
 {
-    self.textView.text=self.content;
+    self.textView.text=self.tempData1;
     [super viewDidLoad];
     NSLog(@"In master copy");
+    NSLog(@"In temporary copy1");
  
 
 
