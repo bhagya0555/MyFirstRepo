@@ -29,8 +29,8 @@
 {
     self.textView.text=self.content;
     [super viewDidLoad];
-    NSLog(@"In temporary copy1");
-    NSLog(@"In temporary copy2");
+    NSLog(@"In master copy2");
+ 
 
 
 	// Do any additional setup after loading the view.
